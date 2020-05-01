@@ -222,6 +222,9 @@ WIFI_HIDL_FEATURE_DUAL_INTERFACE := true
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 #################################################################################
+# XPerience bits
+TARGET_FWK_SUPPORTS_FULL_VALUEADDS := true
+#################################################################################
 # This is the End of BoardConfig.mk file.
 # Now, Pickup other split Board.mk files:
 #################################################################################
