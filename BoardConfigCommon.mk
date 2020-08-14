@@ -174,6 +174,7 @@ TARGET_RPM_MASTER_STAT := "/d/rpmh/master_stats"
 TARGET_RPM_STAT := "/d/rpmh/stats"
 TARGET_TAP_TO_WAKE_NODE := "/proc/touchpanel/double_tap_enable"
 TARGET_WLAN_POWER_STAT := "/sys/kernel/wlan/power_stats"
+TARGET_USES_NON_LEGACY_POWERHAL := true
 
 # Recovery
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
