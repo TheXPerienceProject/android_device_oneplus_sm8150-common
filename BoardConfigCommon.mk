@@ -194,7 +194,7 @@ VENDOR_SECURITY_PATCH := 2020-03-01
 
 # SELinux
 include device/qcom/sepolicy/sepolicy.mk
-
+TARGET_SEPOLICY_DIR := $(TARGET_BOARD_PLATFORM)
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(VENDOR_PATH)/sepolicy/private
 BOARD_PLAT_PUBLIC_SEPOLICY_DIR += $(VENDOR_PATH)/sepolicy/public
 BOARD_SEPOLICY_DIRS += $(VENDOR_PATH)/sepolicy/vendor
